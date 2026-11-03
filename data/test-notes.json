@@ -1,0 +1,137 @@
+{
+  "admin": {
+    "username": "test-owner",
+    "password_hash": "$2b$12$Q8pHVjoxGxTkJAgPvgFFJOUxKDMHrKhH.dCru1.VN65iOFpPgu06q",
+    "credentials_configured": true,
+    "created_at": "2026-10-27T17:30:16.763Z"
+  },
+  "private_sections": [
+    {
+      "id": "photos",
+      "name": "Photos & Memories",
+      "description": "A private photo gallery",
+      "icon": "camera",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "letters",
+      "name": "Letters to Her",
+      "description": "Private digital letters",
+      "icon": "mail",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "moments",
+      "name": "Special Moments",
+      "description": "Meaningful memories and dates",
+      "icon": "heart",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "diary",
+      "name": "Personal Diary",
+      "description": "Private diary entries",
+      "icon": "book",
+      "enabled": true,
+      "order": 4
+    }
+  ],
+  "photos": [],
+  "albums": [
+    {
+      "id": "default",
+      "name": "All Photos",
+      "description": "Default album",
+      "created_at": "2026-10-27T17:30:16.761Z"
+    }
+  ],
+  "letters": [],
+  "diary_entries": [],
+  "moments": [],
+  "anniversary": {
+    "day": 30,
+    "month": 0,
+    "year": 0,
+    "message": "",
+    "configured": false
+  },
+  "upsc_content": {
+    "announcements": [],
+    "current_affairs": [],
+    "mock_questions": [
+      {
+        "id": "24aee7ef-2af8-4c20-9a37-8c46e37ba49c",
+        "question": "Which article of the Indian Constitution deals with the Right to Equality?",
+        "options": [
+          "Article 12",
+          "Article 14",
+          "Article 19",
+          "Article 21"
+        ],
+        "correct": 1,
+        "explanation": "Article 14 of the Indian Constitution guarantees the Right to Equality before law and equal protection of laws to all persons within the territory of India.",
+        "subject": "Polity",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "bab36947-82bc-40fc-be12-9fc95cd032b3",
+        "question": "The Directive Principles of State Policy are contained in which Part of the Indian Constitution?",
+        "options": [
+          "Part III",
+          "Part IV",
+          "Part IVA",
+          "Part V"
+        ],
+        "correct": 1,
+        "explanation": "The Directive Principles of State Policy (DPSP) are contained in Part IV of the Indian Constitution (Articles 36-51).",
+        "subject": "Polity",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "6f1ac142-bca3-44c8-9ebd-91e4e6cf801d",
+        "question": "Which of the following is the highest peak in the Eastern Ghats?",
+        "options": [
+          "Jindhagada Peak",
+          "Mahendragiri",
+          "Deomali",
+          "Arma Konda"
+        ],
+        "correct": 3,
+        "explanation": "Arma Konda (also called Ammagonda) at 1680m in Andhra Pradesh is the highest peak in the Eastern Ghats.",
+        "subject": "Geography",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "bb320794-bb0a-405f-9454-d298b89f3a71",
+        "question": "Who wrote \"The Discovery of India\"?",
+        "options": [
+          "Mahatma Gandhi",
+          "B.R. Ambedkar",
+          "Jawaharlal Nehru",
+          "Subhash Chandra Bose"
+        ],
+        "correct": 2,
+        "explanation": "\"The Discovery of India\" was written by India's first Prime Minister Jawaharlal Nehru while he was imprisoned at Ahmednagar Fort during 1942-1946.",
+        "subject": "History",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "b55724a2-43db-49ca-88c1-04dbaefc28ac",
+        "question": "Which Five-Year Plan in India was based on the Mahalanobis model?",
+        "options": [
+          "First Five-Year Plan",
+          "Second Five-Year Plan",
+          "Third Five-Year Plan",
+          "Fourth Five-Year Plan"
+        ],
+        "correct": 1,
+        "explanation": "The Second Five-Year Plan (1956-1961) was based on the Mahalanobis model which emphasized rapid industrialization with focus on heavy industries.",
+        "subject": "Economy",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}
