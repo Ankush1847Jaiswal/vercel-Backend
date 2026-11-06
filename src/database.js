@@ -16,10 +16,10 @@ async function initDatabase() {
   db.data ||= {
     admin: null,
     private_sections: [
-      { id: 'photos', name: 'Photos & Memories', description: 'A private photo gallery', icon: 'camera', enabled: true, order: 1 },
-      { id: 'letters', name: 'Letters to Her', description: 'Private digital letters', icon: 'mail', enabled: true, order: 2 },
-      { id: 'moments', name: 'Special Moments', description: 'Meaningful memories and dates', icon: 'heart', enabled: true, order: 3 },
-      { id: 'diary', name: 'Personal Diary', description: 'Private diary entries', icon: 'book', enabled: true, order: 4 },
+      { id: 'photos', name: 'Photos', description: 'A private photo gallery', icon: 'camera', enabled: true, order: 1 },
+      { id: 'letters', name: 'Messages', description: 'Private digital messages', icon: 'mail', enabled: true, order: 2 },
+      { id: 'moments', name: 'Documents', description: 'Meaningful memories and documents', icon: 'heart', enabled: true, order: 3 },
+      { id: 'diary', name: 'Articles', description: 'Private articles & entries', icon: 'book', enabled: true, order: 4 },
     ],
     photos: [],
     albums: [

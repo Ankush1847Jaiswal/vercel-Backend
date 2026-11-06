@@ -8,7 +8,7 @@
   "private_sections": [
     {
       "id": "photos",
-      "name": "Photos & Memories",
+      "name": "Photos",
       "description": "A private photo gallery",
       "icon": "camera",
       "enabled": true,
@@ -16,24 +16,24 @@
     },
     {
       "id": "letters",
-      "name": "Letters to Her",
-      "description": "Private digital letters",
+      "name": "Messages",
+      "description": "Private digital messages",
       "icon": "mail",
       "enabled": true,
       "order": 2
     },
     {
       "id": "moments",
-      "name": "Special Moments",
-      "description": "Meaningful memories and dates",
+      "name": "Documents",
+      "description": "Meaningful memories and documents",
       "icon": "heart",
       "enabled": true,
       "order": 3
     },
     {
       "id": "diary",
-      "name": "Personal Diary",
-      "description": "Private diary entries",
+      "name": "Articles",
+      "description": "Private articles & entries",
       "icon": "book",
       "enabled": true,
       "order": 4
